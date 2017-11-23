@@ -20,7 +20,7 @@ public class SplashScreenEarth extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(5000);
-                    Intent intent = new Intent(getApplicationContext(), MenuPrincipal.class);
+                    Intent intent = new Intent(getApplicationContext(), SplashScreenText.class);
                     startActivity(intent);
                     finish();
                 } catch (InterruptedException e) {

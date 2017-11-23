@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arribeal.animap.SplashScreenText">
+
+    <TextView
+        android:id="@+id/textViewExplication"
+        android:layout_width="352dp"
+        android:layout_height="418dp"
+        android:text="
+        Cette application a pour but de lister les animaux présents sur chaque continent.
+
+   Diverses informations seront disponibles sur chaque animal comme par exemple l'esperance de vie, le poids et la taille moyenne ou encore si l'espèce est en voie d'extinction...
+
+
+
+Cette application à été créée dans le cadre d'un projet d'une licence professionnelle SMIN à l'IUT1 de Grenoble.  "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPasser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Passer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
