@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".SplashScreenEarth">
+        <activity android:name=".SplashScreenEarth"
+            android:screenOrientation="userPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuPrincipal" />
-        <activity android:name=".SplashScreenText"></activity>
+        <activity android:name=".MenuPrincipal"
+            android:screenOrientation="userPortrait"/>
+        <activity android:name=".SplashScreenText"
+            android:screenOrientation="userPortrait"></activity>
     </application>
 
 </manifest>
