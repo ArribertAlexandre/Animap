@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textViewExplication"
-        android:layout_width="360dp"
+        android:layout_width="346dp"
         android:layout_height="457dp"
         android:text="
 
