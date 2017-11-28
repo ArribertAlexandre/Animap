@@ -30,4 +30,10 @@ public class SplashScreenEarth extends AppCompatActivity {
         };
         myThread.start();
     }
+
+    @Override
+    public void onBackPressed()
+    {
+
+    }
 }

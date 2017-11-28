@@ -62,6 +62,12 @@ public class SplashScreenText extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+
+    }
+
     /*public void afficheBouton()
     {
         passer.setVisibility(View.VISIBLE);
