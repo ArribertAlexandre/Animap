@@ -31,7 +31,9 @@ public class MenuPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
-                    Toast.makeText(getApplicationContext(), "Le GPS est actif", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(getApplicationContext(), MapsActivity.class));
+
+                    //Toast.makeText(getApplicationContext(), "Le GPS est actif", Toast.LENGTH_LONG).show();
                 }else{
                     showGPSDisabledAlertToUser();
                 }
